@@ -97,10 +97,10 @@ body{
     display: none;
 }
 
-@media (max-width:600px){
+@media (max-width:1080px){
     .card{
         width: 90%;
-        max-width: 490px;
+        max-width: 470px;
         background: linear-gradient(135deg,#00feba,#5b548a);
         color: #fff;
         margin: 100px auto 0;
@@ -117,7 +117,7 @@ body{
         height: 40px;
         border-radius: 30px;
         flex:1;
-        margin-right: 4px;
+        margin-right: 10px;
         font-size: 14px; 
     }
     .search button{
@@ -125,8 +125,8 @@ body{
         outline: 0;
         background: #ebfffc;
         border-radius: 50%;
-        width: 40px;
-        height: 40px;
+        width: 50px;
+        height: 45px;
         cursor: pointer;
     }
     .search button img{
